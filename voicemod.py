@@ -10,11 +10,11 @@ import re
 import logging
 
 import ffmpeg
-import pytgcalls
+import py-tgcalls
 from ShazamAPI import Shazam
 from youtube_dl import YoutubeDL
-from pytgcalls import GroupCallFactory
-from pytgcalls.implementation.group_call_file import GroupCallFile
+from py-tgcalls import GroupCallFactory
+from py-tgcalls.implementation.group_call_file import GroupCallFile
 from telethon import types
 from typing import *
 
